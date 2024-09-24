@@ -1,7 +1,7 @@
 
 ## Project Overview
 
-The BoltoMart backend application serves as the core of our multi-vendor e-commerce platform, BoltoMart. This platform is designed to facilitate fast delivery of electronic and hardware products through various vendors, similar to services like Swiggy and Zomato but focused on electronics.
+The BoltMart backend application serves as the core of our multi-vendor e-commerce platform, BoltMart. This platform is designed to facilitate fast delivery of electronic and hardware products through various vendors, similar to services like Swiggy and Zomato but focused on electronics.
 
 Built using Java Spring Boot, the application follows a microservice architecture and leverages AWS RDS for MySQL database management to ensure scalability and reliability.
 
@@ -15,7 +15,7 @@ AWS RDS MySQL: Managed relational database service for reliable and scalable dat
 
 ## Microservices Architecture
 
-The BoltoMart application is built using a microservices architecture to ensure scalability, flexibility, and maintainability. The following services are integral to the system:
+The BoltMart application is built using a microservices architecture to ensure scalability, flexibility, and maintainability. The following services are integral to the system:
 
 ### **Auth Service** (`Port: 8081`)
 Responsible for managing authentication and authorization for both vendors and customers. This service handles user login, registration, and token management to ensure secure access to the platform.
@@ -41,7 +41,7 @@ Dedicated to managing product-related operations. This service handles product i
 
 ## API Documentation
 
-Detailed API documentation for the BoltoMart backend application is available in the Google Doc linked below. This documentation provides comprehensive information about the API endpoints, request and response formats, and example usage.
+Detailed API documentation for the BoltMart backend application is available in the Google Doc linked below. This documentation provides comprehensive information about the API endpoints, request and response formats, and example usage.
 
 - **API Documentation**: [View API Documentation](https://docs.google.com/document/d/1QFuJw2Qg0L6cFGXVyDb0ka3-fv1rDRa4o344gsu4KAQ/edit?usp=sharing)
 
