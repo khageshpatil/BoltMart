@@ -1,0 +1,30 @@
+curl --request POST \
+  --url https://api.elevenlabs.io/v1/text-to-speech/Xb7hH8MSUJpSbSDYk0k2 \
+  --header 'Content-Type: application/json' \
+  --header 'xi-api-key: sk_14dd50a59450147ec5f97eaf833f9c8045dea255bf4316c5' \
+  --data '{
+  "text": "Hello, world!",
+  "model_id": "eleven_multilingual_v2",
+  "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0
+  },
+  "output_format": "mp3_44100_128"
+}'
+
+
+curl --request POST \
+  --url https://api.elevenlabs.io/v1/text-to-speech/Xb7hH8MSUJpSbSDYk0k2 \
+  --header 'Content-Type: application/json' \
+  --header 'xi-api-key: sk_11e0f772c9434f8db713cd3acde5f9e3048c7f575602eb67' \
+  --data '{
+    "text": "Hello, world!",
+    "model_id": "eleven_multilingual_v2",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0
+    },
+    "output_format": "mp3_44100_128"
+  }'
