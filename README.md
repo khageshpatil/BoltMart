@@ -39,13 +39,6 @@ Manages the sending of notifications via email and SMS to admins, customers, and
 Dedicated to managing product-related operations. This service handles product information, inventory management, and product-related queries, ensuring that product data is up-to-date and accessible.
 
 
-//## API Documentation
-
-Detailed API documentation for the BoltMart backend application is available in the Google Doc linked below. This documentation provides comprehensive information about the API endpoints, request and response formats, and example usage.
-
-- **API Documentation**: [View API Documentation](https://docs.google.com/document/d/1QFuJw2Qg0L6cFGXVyDb0ka3-fv1rDRa4o344gsu4KAQ/edit?usp=sharing)
-
-
 ---------
 ## Installation
 
